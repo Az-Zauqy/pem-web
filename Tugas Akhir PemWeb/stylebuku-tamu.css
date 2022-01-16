@@ -1,0 +1,36 @@
+section {
+    background-color: #ffffff;
+}
+
+.kepala{
+    text-align: center;
+    background: #2c7873;
+}
+
+.kepala h1 {
+    font-size: 25px;
+    color: white;
+}
+
+.kepala h2 {
+    color: white;
+}
+
+.kepala i {
+    color: white;
+}
+
+.label {
+    font-family: montserrat;
+    color: white;
+}
+
+.php {
+    text-align: center;
+    color: white;
+}
+
+.utama label {
+    color: white;
+    font-family: montserrat;
+}

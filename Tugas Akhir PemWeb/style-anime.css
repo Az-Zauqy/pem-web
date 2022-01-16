@@ -1,0 +1,22 @@
+.anime {
+    padding-top: 3%;
+    padding-left: 100px;
+}
+
+.anime img {
+    max-width: 600px;
+}
+
+.anime p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding-right: 40%;
+}
+
+.anime h1 {
+    color: black;
+}
+
+.anime h2 {
+    color: black;
+}

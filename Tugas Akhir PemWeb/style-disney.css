@@ -1,0 +1,22 @@
+.disney {
+    padding-top: 3%;
+    padding-left: 100px;
+}
+
+.disney img {
+    max-width: 600px;
+}
+
+.disney p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding-right: 30%;
+}
+
+.disney h1 {
+    color: black;
+}
+
+.disney h2 {
+    color: black;
+}

@@ -1,0 +1,22 @@
+.marvel {
+    padding-top: 3%;
+    padding-left: 100px;
+}
+
+.marvel img {
+    max-width: 600px;
+}
+
+.marvel p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding-right: 50%;
+}
+
+.marvel h2 {
+    color: black;
+}
+
+.marvel h1{
+    color: black;
+}

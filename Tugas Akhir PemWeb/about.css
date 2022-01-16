@@ -1,0 +1,64 @@
+.utama div{
+    text-align: center;
+    padding: 40px;
+}
+.utama div img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0 -8px;
+}
+
+.inti {
+    background-color: #ffffff;
+}
+
+.utama {
+    text-align: center;
+}
+
+.tengahh {
+    font-family: montserrat;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.tengahh h1, h2  {
+    color: black;
+
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+    text-align: center;
+   
+ }
+
+a i {
+    transition: all 0.3s linear;
+}
+
+a:hover i {
+    transform: scale(1.4);
+}
+
+.fa-whatsapp{
+    color: #04df58;
+}
+
+.fa-instagram {
+    color: #e84393;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+header h2  {
+    color: rgb(255, 255, 255);
+}

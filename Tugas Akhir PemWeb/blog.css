@@ -1,0 +1,81 @@
+body {
+    background-color: #ffffff;
+}
+
+.blog {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.utama {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    min-height: 100vh;
+}
+
+.ut {
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: minmax(100px, auto);
+    margin: 40px;
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+    margin-left: 30%;
+    margin-right: 10%;
+}
+
+.ut .box {
+    background-color: #000000;
+    padding: 20px;
+    display: grid;
+    font-size: 20px;
+    place-items: center;
+    text-align: center;
+    color: #ffffff;
+    transition: 0.5s;
+    right: 150px;
+}
+
+.ut .box:hover{
+    background: #6e6c6c;
+    color: black;
+}
+
+.ut .box img{
+    position: relative;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.ut .box:nth-child(1){
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+.ut .box:nth-child(2){
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+.ut .box:nth-child(3){
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+@media(max-width: 991px){
+    .ut{
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        grid-template-rows: minmax(auto auto);  
+    }
+
+    .ut .box{
+        grid-column: unset !important;
+        grid-row: unset !important;
+    }
+}
